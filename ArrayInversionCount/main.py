@@ -37,8 +37,8 @@ def test(array : list[int]) -> None:
 
 def main() -> None:
     # Testing array_invertion_count function
-    test([-1, 6, 3, 4, 7, 4]) # Tree with height = 2
-    test([1, 2, 3, 4]) # Tree with height = 1
+    test([-1, 6, 3, 4, 7, 4]) # Array with 4 invertions
+    test([1, 2, 3, 4]) # Array with 0 invertions
     test([]) # Empty array
 
     # Computes algorithmic complexity of array_invertion_count function with the worst case specified in the 'codility' exercise
