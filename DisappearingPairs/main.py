@@ -61,9 +61,9 @@ def generate_random_strings(lenght: int, chars: str) -> str:
 
 def main() -> None:
     # Testing dissapearing_pairs function
-    test("ACCBBAC") # Tree with height = 2
-    test("ABCBBCBA") # Tree with height = 1
-    test("BABA")
+    test("ACCBBAC") # String result = C
+    test("ABCBBCBA") # String result = ""
+    test("BABA") # String result = BABA
 
     # Computes algorithmic complexity of dissapearing_pairs function with the worst case specified in the 'codility' exercise
     string_sample = lambda n : generate_random_strings(50000, "ABC")
