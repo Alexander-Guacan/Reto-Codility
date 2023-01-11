@@ -41,7 +41,7 @@ def main() -> None:
     test([16, [13, None, None], [20, [18, None, None], None]]) # Tree with height = 2
     test([7, [5, None, None], [9, None, None]]) # Tree with height = 1
     test([None]) # Empty tree
-    # test([25, [23, [20, [19, [7, None, None], None], [22, None, None]], [24, None, None]], [34, [30, [26, None, None], [33, [32, None, None], None]], [38, None, None]]])
+    test([25, [23, [20, [19, [7, None, None], None], [22, None, None]], [24, None, None]], [34, [30, [26, None, None], [33, [32, None, None], None]], [38, None, None]]]) # Complex tree
 
     # Computes algorithmic complexity of height_tree function with the worst case specified in the 'codility' exercise
     tree_sample = lambda n : [25, [23, [20, [19, [7, None, None], None], [22, None, None]], [24, None, None]], [34, [30, [26, None, None], [33, [32, None, None], None]], [38, None, None]]]
